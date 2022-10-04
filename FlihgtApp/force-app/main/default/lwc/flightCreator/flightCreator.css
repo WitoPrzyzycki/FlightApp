@@ -1,0 +1,15 @@
+.background-white {
+    background-color: white;
+    padding: 1rem;
+}
+.button {
+    margin-top: 1rem;
+}
+.form {
+    display: flex;
+    flex-direction: column;
+}
+.route {
+    display: flex;
+    flex-direction: column;
+}

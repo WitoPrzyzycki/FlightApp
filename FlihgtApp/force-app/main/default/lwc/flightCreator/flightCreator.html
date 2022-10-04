@@ -1,0 +1,41 @@
+<template>
+    <div class="background-white">
+        <div class="form">
+            <lightning-combobox
+                name="departureAirport"
+                label="Departure Airport"
+                value={chosenDepartureAirport}
+                placeholder="Departure Airport"
+                options={airportOptions}
+                onchange={handleChange}
+                required>
+            </lightning-combobox>
+            <lightning-combobox
+                name="arrivalAirport"
+                label="Arrival Airport"
+                value={chosenArrivalAirport}
+                placeholder="Arrival Airport"
+                options={airportOptions}
+                onchange={handleChange}
+                required>
+            </lightning-combobox>
+            <lightning-button 
+                label="Create a flight" 
+                title="Create a flight" 
+                onclick={handleFlightCreation} 
+                class="button">
+            </lightning-button>
+        </div>
+        <template if:true={isResult}>
+            <div class="slds-p-top_medium">
+                    {label.createdFlight}: {name}
+                <div class="route">
+                    {label.departureAirport}: {departureAirportName}
+                    &nbsp;
+                    {label.arrivalAirport}: {arrivalAirportName}
+                </div>
+                    {label.flightDistance}: {distance}&nbsp;{label.distanceUnit}
+            </div>
+        </template>
+    </div>
+</template>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata">
+    <labels>
+        <fullName>ArrivalAirport</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>ArrivalAirport</shortDescription>
+        <value>Arrival Airport</value>
+    </labels>
+    <labels>
+        <fullName>DepartureAirport</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>DepartureAirport</shortDescription>
+        <value>Departure Airport</value>
+    </labels>
+    <labels>
+        <fullName>CreatedFlight</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>CreatedFlight</shortDescription>
+        <value>Created flight</value>
+    </labels>
+    <labels>
+        <fullName>FlightDistance</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>FlightDistance</shortDescription>
+        <value>Flight Distance</value>
+    </labels>
+    <labels>
+        <fullName>MissingData</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>MissingData</shortDescription>
+        <value>There is missing data.</value>
+    </labels>
+    <labels>
+        <fullName>MakeSureBeforeSave</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>MakeSureBeforeSave</shortDescription>
+        <value>Departure and Arrival destinations are not the same.</value>
+    </labels>
+    <labels>
+        <fullName>UnexpectedError</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>UnexpectedError</shortDescription>
+        <value>Unexpected error</value>
+    </labels>
+    <labels>
+        <fullName>DistanceUnit</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>DistanceUnit</shortDescription>
+        <value>km</value>
+    </labels>
+</CustomLabels>
